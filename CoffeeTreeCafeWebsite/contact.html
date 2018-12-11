@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+<!--
+	Final Project
+	Greg Tarr
+	December 8, 2017
+  -->
+  
+<title>The Coffee Tree Cafe</title>
+
+<meta charset = "UTF-8" >
+
+<meta name="description" content="The Coffee Tree Cafe is a local coffee house that roasts it's own coffee, serves food and pastries, and is a hotspot for local entertainment in the St Paul, Minnesota area.  ">
+  <meta name="keywords" content="Coffee coffee cappuccino Cappuccino espresso Espresso cafe Cafe restaurant Restaurant Study study Studying studying retro college local Local entertainment Entertainment music Music events Events live Live ">
+  <meta name="author" content="Greg Tarr">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link href= "stylesheet.css" rel= "stylesheet" type = "text/css" media="screen"/>
+<link href= "printstyles.css" rel="stylesheet" type="text/css" media="print" />
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+
+<!--embedded style-->
+
+<style>
+#map {
+        height: 400px;
+        width: 100%;
+       }
+main		{
+			width: 70%;
+			float: right;
+			
+			}
+aside		{
+			 width: 25%;
+			
+			}
+table		{
+			font-size: 12px;
+			width: 100%;
+			margin: 10px 0;
+			font-size: 0.85em;
+			border-collapse: collapse;
+			}
+th, td		{			
+			font-weight: normal;
+			text-align: left;
+			vertical-align: top;
+			padding-bottom: 5px;
+			}
+td			{
+			padding-right: 10%;
+			}
+tr			{
+			border-bottom: 1px solid #372514;
+			}
+aside p		{
+			padding-left: 5px;
+			padding-top: 3px;
+			}
+form		{
+			margin-bottom: 1em;
+			font-size: 15px;
+			}					
+label		{
+			width: 130px;
+			margin: 0 15px 0 4px;
+			color: black;
+			float: left;
+			text-align: right;
+			clear: both;
+			}
+fieldset	{
+			width: 90%;
+			margin: 1em;
+			padding: 0.5em;
+			}	
+.extramargin	{
+			margin: 5% 1%;
+			}
+			
+				
+
+</style>
+
+</head>
+<body>
+<div id="container">
+<section id="top">
+	<header>
+		<p>
+		<a href="index.html"><img src="images/bean-logo.jpg" alt="Home" title="Home" style="width:72px;height:67px;"></a>
+		</p>
+		<h1><a href="index.html" title="Home">The Coffee Tree Cafe</a></h1>
+	</header>
+	</section><!--end top-->
+	<nav>
+		<ul>
+			<li><a href = "about.html" title = "About Us" >About</a></li>
+			<li><a href = "menu.html" title = "Our Menu" >Our Menu</a></li>
+			<li><a href = "events.html" title = "Events" >Events</a></li>
+			<li><a href = "contact.html" title = "Contact Us" >Contact</a></li>
+		</ul>
+	</nav>
+
+	
+<div id="background">
+	
+	<aside>
+		<h3>LOCATION</h3>
+		<p>The Coffee Tree Cafe<br />604 24th Street<br />St Paul, Minnesota<br />702-971-1154</p>
+		
+		<h3>HOURS</h3>
+	  <table id="hours" title="hours">
+	
+		<colgroup>
+		<col />
+		<col />
+		</colgroup>
+	
+		<tr>
+		  <th>Sunday</th>
+		  <td>7:00am to 9:00pm</td>
+		</tr>
+		<tr>
+		  <th>Monday-Thursday</th>
+		  <td>6:00am to 10:00pm</td>
+		</tr>
+		<tr>
+		  <th>Friday</th>
+		  <td>6:00am to 11:00pm</td>
+		</tr>
+		<tr>
+		  <th>Saturday</th>
+		  <td>6:30am to 11:00pm</td>
+		</tr>
+	  </table>
+		
+	</aside>
+	<main>
+	
+		<h3>CONTACT US</h3>
+<figure>		
+		<section id="contact">
+	
+
+<form id="contactinfo" name="contact" method="post" action="formHandlerContact.php" class="form">
+
+  
+<fieldset><legend>Personal Information</legend>
+
+<!-- text boxes are below -->
+
+	<label for="firstname">First Name</label>
+	<input type="text" name="contact_firstname" id="firstname" size="15" />
+	<label for="lastname">Last Name</label>
+	<input type="text" name="contact_lastname" id="lastname" size="20" />
+	<label for="phone">Phone</label>
+	<input type="text" name="contact_phone" id="phone" size="12" maxlength="12" />
+	<label for="address1">Address Line 1</label>
+	<input type="text" name="contact_address1" id="address1" size="20" />
+	<label for="address2">Address Line 2</label>
+	<input type="text" name="contact_address2" id="address2" size="20" />
+	<label for="city">City</label>
+	<input type="text" name="contact_city" id="city" size="20" />
+	<label for="state">State</label>
+	<input type="text" name="contact_state" id="state" size="2" maxlength="2" />
+	<label for="zip">Zip Code</label>
+	<input type="text" name="contact_zip" id="zip" size="5" maxlength="5" />
+	<label for="email">Email</label>
+	<input type="email" name="contact_email" id="email" size="40" maxlength="40" />
+	<p><br /></p>
+	<label for="contact_message" class="clear"></label>
+	<textarea name="contact_message" id="contact_message" rows="8" cols="15" placeholder="Leave us a message..."></textarea>
+
+</fieldset>
+
+
+
+<!-- checkbox is below -->
+
+	<label for="offers">I would like to receive special offers via email.</label>
+	<input type="checkbox" name="contact_offers" id="offers" checked="checked" />
+
+
+
+<!-- input buttons are below -->
+
+	<input type="submit" value="Send Information" class="button" />
+	<input type="reset" value="Cancel" class="button" />
+
+
+
+
+</form>
+
+</section> <!-- end contact -->	
+
+</figure>
+	
+
+<section id="map1">
+</section> <!-- end map -->	
+<figure class="extramargin">
+  
+	<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 44.957980, lng: -93.095644};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+		<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCniOXqY6waMXkp8fEyq2Co9Xry1cT4w74&callback=initMap">
+</script>
+
+	<figcaption>Our Location</figcaption>
+	
+</figure>
+
+
+	</main>	
+	
+
+
+
+<div id="bottom">
+
+	<a href="#top">Top of Page</a>
+	
+</div><!--end div bottom-->
+
+
+	<footer>
+		<p>604 24th St, St Paul, MN &emsp;|&emsp; 702-971-1154</p>
+		<p class="copywright">&copy; Copyright 2017 All Rights Reserved <em><a href="http://www.gregorytarr.net" target="_blank" title="Creator" >www.gregorytarr.net</a></em></p>
+	</footer>
+	
+</div><!--end div background-->
+</div><!--end div container-->
+
+
+</body>
+</html>

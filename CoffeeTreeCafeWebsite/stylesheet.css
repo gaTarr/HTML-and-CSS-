@@ -1,0 +1,186 @@
+@import url(css_library/footer.css);
+@import url(css_library/nav.css);
+
+*	{
+	 margin: 0;
+	 padding: 0;
+	}
+body		{
+			background: url(images/beans-cup-large2.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+#container	{
+			 width: 80%;
+			 font-family: 'Gudea', sans-serif;
+			 color: #372514;
+			 margin: 0 auto;
+			 
+			}
+#background	{
+			background: rgba(234,230,190, 0.8);
+			box-shadow: 1em 0 1em 0 rgba(0, 0, 0, .8);
+			}
+header		{
+			 font-size: 2.4em;
+			 font-family: 'Caveat', cursive;
+			 color: #eeebe8;
+			 padding-top: 3%;
+			 text-align: center;	
+			}
+header a:visited{
+			color: #eeebe8;
+			}
+header p	{
+			 margin-bottom: -0.5em;
+			}
+nav			{
+			 color: #372514;
+			 background: rgba(238,235,232, 0.8);
+			 padding: 0.5%;
+			 margin: 0 auto;
+			 margin-bottom: 13px;
+			 text-align: center;
+			 box-shadow: 1em 0em 1em 0 rgba(0, 0, 0, .8);
+			}
+aside		{
+			 width: 19%;			
+			 padding: 0.5%;
+			 padding-right: 1%;
+			 float: left;
+			 margin-right: 1%;
+			}
+aside p		{
+			 padding-bottom:12px;
+			}
+h3, h2	{
+			 text-align: center;
+			 background: rgba(135,59,39, 0.8);
+			} 
+
+main		{			 
+			 width: 54%;			 
+			 padding: 0.5%;
+			 padding-left: 1%;
+			 float: left;
+			 text-align: center;
+			}
+footer		{
+			color: #eeebe8;
+			background: rgba(55,37,20, 0.95);
+			box-shadow: 1em 1em 1em 0 rgba(0, 0, 0, .8);
+			}
+footer a	{
+			color: #eeebe8;
+			text-shadow: 0.5px 0.5px rgba(238,235,232, 0.8);
+			}
+			
+figure		{
+			 border: 2px solid #5c2223;
+			 text-align: center;
+			 padding: 1% 0;
+			 margin: 0.5% 5%;
+			 background: rgba(238,235,232, 0.8);
+			}
+figure.nocaption	{
+			padding: 5px 1px 1px 1px;
+			}
+figcaption	{
+			 font-style: italic;
+			}			
+#rightsidebar	{
+				 width: 20%;
+				 padding: 0.5%;
+				 float: right;
+				 margin-left: 1%;
+				 text-align: center;
+				 }
+#callout	{
+			color: #5c2223;
+			font-weight: bold;
+			text-align: center;
+			border-top: thin dashed purple;
+			border-bottom: thin dashed purple;
+			padding-top: 0.5%;
+			padding-bottom: 0.5%;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			}
+#bottom		{
+			 padding: 0 0 0.3% 0.3%;			 
+			 clear: both;
+			}
+#bottom a	{
+			 color: #22405c;
+			 font-weight: bold;
+			}	
+#bottom a:visited{
+			 color: #22405c;
+			}
+#contact 	{
+						
+			}
+#home		{
+			 width: 74%;			 
+			 padding: 1%;
+			 text-align: center;
+			}
+a			{
+			color: #372514;
+			text-decoration:none;
+			}
+p a:hover	{
+			text-shadow: 1px 1px rgba(238,235,232, 0.8);
+			}	
+.center		{
+			 text-align: center;
+			}
+.clear		{
+			 clear: both;
+			}
+.floatleft	{
+			float: left;
+			}
+/*Table Styles */
+
+caption.heading{
+			text-align: center;
+			font-family: 'Gudea', sans-serif;
+			background: rgba(135,59,39, 0.8);
+			font-size: 1.17em;
+			font-weight: bold;
+			}
+/*Form Styles */
+input.button{
+			margin-top: 1em;
+			border: 1px solid black;
+			border-radius: 5px;
+			color: black;
+			padding: 1px 4px;
+			background-color: rgba(135,59,39, 0.8);
+			font-weight: bold;
+			display: inline;
+			}	
+input		{	
+			margin-bottom: 2px;
+			display: block;
+			}
+textarea		{
+				width: 100%;
+				}
+legend			{
+				padding: 0 10px;
+				font-weight: bold;
+				}				
+figure.form		{
+			 padding: 0;
+			 margin: 1% 1%;
+			}
+
+
+
+
+
+
+
+			

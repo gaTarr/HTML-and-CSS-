@@ -1,0 +1,27 @@
+/* Print Styles */
+
+nav, header		{
+				display: none;
+}
+@page			{
+				size: 8.5in 11in;
+				margin: .5in;
+}
+body, h1, h2, h3{
+				color: black;
+				background-color: white;
+				background-image: none;
+				font-size: 12pt;
+				font-family: "Times New Roman", Times, serif;
+				line-height: 120%;
+}
+a				{
+				text-decoration: underline;
+				color: blue;
+}
+img				{
+				display: none;
+}
+iframe			{
+				display: none;
+}
